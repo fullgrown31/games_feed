@@ -1,8 +1,16 @@
 <h2>All Genres</h2>
-<ul>
+<table>
+    <tr>
+        <th>Genre</th>
+        <th>Number of Games</th>
+    </tr>
     <% @genres.each do |genre| %>
-        <li><%= link_to genre.name, genre %> has <%= pluralize(genre.games.count, 'game') %></li>
+        <tr>
+            <td><%= link_to genre.name, genre %></td>
+            <td><%= genre.games.count %></td>
+        </tr>
     <% end %>
-</ul>
-
+</table>
+</br>
 <%= will_paginate @genres %>
+</br>

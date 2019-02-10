@@ -1,8 +1,16 @@
 <h2>All Platforms</h2>
-<ul>
+<table>
+    <tr>
+        <th>Platform</th>
+        <th>Number of Games</th>
+    </tr>
     <% @platforms.each do |platform| %>
-        <li><%= link_to platform.name, platform %> has <%= pluralize(platform.games.count, 'game') %></li>
+        <tr>
+            <td><%= link_to platform.name, platform %></td>
+            <td><%= platform.games.count %></td>
+        </tr>
     <% end %>
-</ul>
-
+</table>
+</br>
 <%= will_paginate @platforms %>
+</br>

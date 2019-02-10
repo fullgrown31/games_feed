@@ -1,6 +1,17 @@
 <h2>All Users</h2>
-<ul>
+<table>
+    <tr>
+        <th>User</th>
+        <th>Number of Game Ratings</th>
+    </tr>
     <% @users.each do |user| %>
-        <li><%= link_to user.name, user %> has <%= pluralize(user.ratings.count, 'game rating') %>.</li>
+        <tr>
+            <td><%= link_to user.name, user %> </td>
+            <td><%= user.ratings.count%></li>
+        </tr>
     <% end %>
-</ul>
+</table>
+
+</br>
+<%= will_paginate @users %>
+</br>
