@@ -1,6 +1,6 @@
 class GenresController < ApplicationController
   def index
-    @genres = Genre.order(:name)
+    @genres = Genre.includes(:games).order(:name)
   end
 
   def show

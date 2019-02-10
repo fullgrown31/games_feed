@@ -1,6 +1,6 @@
 class PlatformsController < ApplicationController
   def index
-    @platforms = Platform.order(:name)
+    @platforms = Platform.includes(:games).order(:name)
   end
 
   def show

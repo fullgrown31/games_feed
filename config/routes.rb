@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pages
   resources :platforms, only: [:index, :show]
   resources :genres, only: [:index, :show]
 
