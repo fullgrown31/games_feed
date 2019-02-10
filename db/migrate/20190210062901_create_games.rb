@@ -6,7 +6,7 @@ class CreateGames < ActiveRecord::Migration[5.2]
       t.string :name
       t.integer :metascore
       t.integer :userscore
-      t.datetime :year
+      t.integer :year
 
       t.timestamps
     end

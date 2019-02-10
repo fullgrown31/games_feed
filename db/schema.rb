@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_02_10_062935) do
     t.string "name"
     t.integer "metascore"
     t.integer "userscore"
-    t.datetime "year"
+    t.integer "year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["genre_id"], name: "index_games_on_genre_id"
