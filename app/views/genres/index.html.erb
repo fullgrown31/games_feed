@@ -4,3 +4,5 @@
         <li><%= link_to genre.name, genre %> has <%= pluralize(genre.games.count, 'game') %></li>
     <% end %>
 </ul>
+
+<%= will_paginate @genres %>

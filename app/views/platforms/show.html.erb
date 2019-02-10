@@ -5,12 +5,14 @@
         <th>Game</th>
         <th>Genre</th>
     </tr>
-    <% @platform.games.each do |game| %>
+    <% @games.each do |game| %>
         <tr>
             <td><%= link_to game.name, game %></td>
             <td><%= link_to game.genre.name, game.genre %></td>
         </tr>
     <% end %>
 </table>
+
+<%= will_paginate @games %>
 
 <p><%= link_to 'Back', platforms_path %></p>
