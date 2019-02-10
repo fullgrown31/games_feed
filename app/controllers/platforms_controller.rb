@@ -5,5 +5,7 @@ class PlatformsController < ApplicationController
 
   def show
     @platform = Platform.includes(:games).find(params[:id])
+
+    redirect_to platforms_path if @platform.nil?
   end
 end

@@ -5,5 +5,7 @@ class GenresController < ApplicationController
 
   def show
     @genre = Genre.includes(:games).find(params[:id])
+
+    redirect_to genres_path if @genre.nil?
   end
 end

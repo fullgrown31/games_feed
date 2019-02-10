@@ -1,5 +1,12 @@
 class PagesController < ApplicationController
+  http_basic_authenticate_with name: "dwight", password: "mopas"
   before_action :set_page, only: [:show, :edit, :update, :destroy]
+
+  def static
+    @page = Page.find_by(permalink: params[:permalink])
+
+    redirect_to root_path if @page.nil?
+  end
 
   # GET /pages
   # GET /pages.json

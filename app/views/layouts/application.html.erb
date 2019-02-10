@@ -17,6 +17,8 @@
       <ul>
         <li><%= link_to 'Platforms', root_path %></li>
         <li><%= link_to 'Genres', genres_path %></li>
+        <li><%= link_to 'About Me', static_path(permalink: 'about-us') %></li>
+        <li><%= link_to 'Contact', static_path(permalink: 'contact-us') %></li>
       </ul>
     </nav>
     <%= yield %>
