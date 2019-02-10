@@ -1,0 +1,9 @@
+<h2><%= @platform.name %> Games</h2>
+
+<ul>
+    <% @platform.games.each do |game| %>
+        <li><%= game.name %></li>
+    <% end %>
+</ul>
+
+<p><%= link_to 'Back', root_path %></p>

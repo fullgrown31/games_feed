@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GamesFeed</title>
+    <title>Games Feed</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <h1>Welcome to Games Feed</h1>
+    <nav>
+      <li><%= link_to 'Platforms', root_path %></li>
+      <li><%= link_to 'Genres', genres_path %></li>
+    </nav>
     <%= yield %>
+
+    <footer>Created By Dwight Mopas 2019</footer>
   </body>
 </html>
