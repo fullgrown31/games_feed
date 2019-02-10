@@ -1,0 +1,16 @@
+<h2><%= @user.name %> Ratings</h2>
+
+<table>
+    <tr>
+        <th>Game</th>
+        <th>Rating</th>
+    </tr>
+    <% @user.ratings.each do |rating| %>
+        <tr>
+            <td><%= rating.game.name %></td>
+            <td><%= rating.userscore %></td>
+        </tr>
+    <% end %>
+</table>
+
+<p><%= link_to 'Back', users_path %></p>

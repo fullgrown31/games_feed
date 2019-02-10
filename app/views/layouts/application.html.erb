@@ -15,7 +15,9 @@
     </header>
     <nav>
       <ul>
-        <li><%= link_to 'Platforms', root_path %></li>
+        <li><%= link_to 'Home', static_path(permalink: 'home') %></li>
+        <li><%= link_to 'Games', games_path %></li>
+        <li><%= link_to 'Platforms', platforms_path %></li>
         <li><%= link_to 'Genres', genres_path %></li>
         <li><%= link_to 'About Me', static_path(permalink: 'about-us') %></li>
         <li><%= link_to 'Contact', static_path(permalink: 'contact-us') %></li>

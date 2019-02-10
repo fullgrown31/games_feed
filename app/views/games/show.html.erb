@@ -1,0 +1,19 @@
+<h2><%= @game.name %> Games</h2>
+
+<p>Metascore: <%= @game.metascore %></p>
+<p>Userscore: <%= @game.ratings.average(:userscore) %></p>
+<h3>Ratings</h3>
+<table>
+    <tr>
+        <th>User</th>
+        <th>Rating</th>
+    </tr>
+    <% @game.ratings.each do |rating| %>
+        <tr>
+            <td><%= rating.user.name %></td>
+            <td><%= rating.userscore %></td>
+        </tr>
+    <% end %>
+</table>
+
+<p><%= link_to 'Back', games_path %></p>
