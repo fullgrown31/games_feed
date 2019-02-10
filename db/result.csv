@@ -32,7 +32,7 @@ Pokemon X/Pokemon Y,3DS,2013,Role-Playing,Nintendo,5.39,4.37,4.36,0.8,14.92,,,,,
 Call of Duty: Black Ops 3,PS4,2015,Shooter,Activision,6.08,5.95,0.36,2.41,14.8,,,,,
 Call of Duty: Modern Warfare 3,X360,2011,Shooter,Activision,9.06,4.26,0.13,1.33,14.77,88,81,3.4,8715,M
 Call of Duty: Black Ops,X360,2010,Shooter,Activision,9.73,3.7,0.11,1.13,14.67,87,89,6.3,1456,M
-Pok\xc3\xa9mon Yellow: Special Pikachu Edition,G,1998,Role-Playing,Nintendo,5.89,5.04,3.12,0.59,14.64,,,,,
+Pokemon Yellow: Special Pikachu Edition,G,1998,Role-Playing,Nintendo,5.89,5.04,3.12,0.59,14.64,,,,,
 Call of Duty: Black Ops II,PS3,2012,Shooter,Activision,4.99,5.73,0.65,2.42,13.79,83,21,5.3,921,M
 Call of Duty: Black Ops II,X360,2012,Shooter,Activision,8.25,4.26,0.07,1.12,13.69,83,73,4.8,2261,M
 Call of Duty: Modern Warfare 2,X360,2009,Shooter,Activision,8.52,3.6,0.08,1.28,13.48,94,100,6.3,2702,M
@@ -91,7 +91,7 @@ The Sims 3,PC,2009,Simulation,Electronic Arts,0.99,6.42,0,0.6,8.01,86,75,7.6,894
 Mario & Sonic at the Olympic Games,Wii,2007,Sports,Sega,2.57,3.86,0.66,0.91,7.99,,,,,
 Final Fantasy VIII,PS,1999,Role-Playing,SquareSoft,2.28,1.72,3.63,0.23,7.86,90,24,8.6,658,T
 Pac-Man,2600,1982,Puzzle,Atari,7.28,0.45,0,0.08,7.81,,,,,
-Pok\xc3\xa9mon Platinum Version,DS,2008,Role-Playing,Nintendo,2.76,1.72,2.69,0.54,7.72,83,46,8.5,204,E
+Pokemon Platinum Version,DS,2008,Role-Playing,Nintendo,2.76,1.72,2.69,0.54,7.72,83,46,8.5,204,E
 Grand Theft Auto: Liberty City Stories,PSP,2005,Action,Take-Two Interactive,2.9,2.81,0.24,1.73,7.69,88,65,7.6,453,M
 Call of Duty: Advanced Warfare,PS4,2014,Shooter,Activision,2.83,3.48,0.14,1.24,7.68,83,39,5.7,1446,M
 Super Smash Bros. for Wii U and 3DS,3DS,2014,Fighting,Nintendo,3.3,1.4,2.44,0.48,7.62,,,,,
@@ -131,9 +131,9 @@ Donkey Kong Country Returns,Wii,2010,Platform,Nintendo,3.18,1.8,1.03,0.46,6.47,8
 Assassins Creed III,PS3,2012,Action,Ubisoft,2.65,2.52,0.16,1.12,6.46,85,41,6.9,1314,M
 Halo: Combat Evolved,X,2001,Shooter,Microsoft Game Studios,4.98,1.3,0.08,0.07,6.43,97,68,8.6,1292,M
 The Elder Scrolls V: Skyrim,PS3,2011,Role-Playing,Bethesda Softworks,2.56,2.61,0.25,1,6.42,92,16,6.4,2530,M
-Pok\xc3\xa9mon Emerald Version,GBA,2004,Role-Playing,Nintendo,2.57,1.58,2.06,0.21,6.41,76,28,9,223,E
+Pokemon Emerald Version,GBA,2004,Role-Playing,Nintendo,2.57,1.58,2.06,0.21,6.41,76,28,9,223,E
 Kingdom Hearts,PS2,2002,Role-Playing,Sony Computer Entertainment,3.64,1.2,1.49,0.07,6.4,85,46,8.8,610,E
-Pok\xc3\xa9mon Crystal Version,G,2000,Role-Playing,Nintendo,2.55,1.56,1.29,0.99,6.39,,,,,
+Pokemon Crystal Version,G,2000,Role-Playing,Nintendo,2.55,1.56,1.29,0.99,6.39,,,,,
 Red Dead Redemption,X360,2010,Action,Take-Two Interactive,3.71,1.97,0.09,0.58,6.35,95,96,9,2327,M
 Halo 3: ODST,X360,2009,Shooter,Microsoft Game Studios,4.34,1.34,0.06,0.61,6.34,83,94,7.1,1166,M
 Super Mario Sunshine,GC,2002,Platform,Nintendo,4.01,1.26,0.87,0.17,6.31,92,61,8.6,444,E
@@ -339,7 +339,7 @@ Resident Evil 3: Nemesis,PS,1999,Action,Eidos Interactive,1.3,0.77,1.54,0.11,3.7
 Super Paper Mario,Wii,2007,Platform,Nintendo,1.95,0.86,0.59,0.31,3.72,85,56,7.9,423,E
 Spyro: Year of the Dragon,PS,2000,Platform,Sony Computer Entertainment,1.93,1.58,0,0.19,3.71,91,15,8.8,210,E
 FIFA Soccer 2005,PS2,2004,Sports,Electronic Arts,0.58,2.48,0.04,0.59,3.7,81,27,7.6,56,E
-Pok\xc3\xa9mon Trading Card Game,G,1998,Strategy,Nintendo,1.49,0.73,1.38,0.1,3.7,,,,,
+Pokemon Trading Card Game,G,1998,Strategy,Nintendo,1.49,0.73,1.38,0.1,3.7,,,,,
 Friend Collection,DS,2009,Misc,Nintendo,0,0,3.67,0,3.67,,,,,
 Tony Hawks Pro Skater 4,PS2,2002,Sports,Activision,2.13,1.18,0.01,0.35,3.67,94,27,8.5,129,T
 MySims,DS,2007,Simulation,Electronic Arts,1.58,1.59,0.08,0.41,3.66,67,15,6.9,14,E
@@ -552,7 +552,7 @@ Yoshis Island DS,DS,2006,Platform,Nintendo,1.45,0.07,1.1,0.15,2.76,81,42,7.4,67,
 Missile Command,2600,1980,Shooter,Atari,2.56,0.17,0,0.03,2.76,,,,,
 Mario Paint,SNES,1992,Misc,Nintendo,1.43,0.54,0.71,0.07,2.75,,,,,
 Tekken 6,PS3,2009,Fighting,Namco Bandai Games,1.2,0.97,0.17,0.42,2.75,79,63,7.4,214,T
-Pok\xc3\xa9mon Stadium 2,N64,2000,Strategy,Nintendo,1.02,0.36,1.13,0.23,2.73,,,,,
+Pokemon Stadium 2,N64,2000,Strategy,Nintendo,1.02,0.36,1.13,0.23,2.73,,,,,
 Sonic and the Secret Rings,Wii,2007,Platform,Sega,1.21,1.19,0.04,0.29,2.73,69,44,6.6,177,E
 Metroid,NES,1986,Action,Nintendo,1.33,0.31,1.04,0.05,2.73,,,,,
 FIFA 16,PS3,2015,Sports,Electronic Arts,0.42,1.84,0.05,0.4,2.72,,,3.1,59,E
@@ -611,7 +611,7 @@ Sonic Adventure 2 Battle,GC,2001,Platform,Sega,1.7,0.59,0.21,0.07,2.56,73,28,8.3
 Dragon Warrior II,NES,1987,Role-Playing,Enix Corporation,0.15,0,2.41,0,2.56,,,,,
 Dragon Age: Origins,X360,2009,Role-Playing,Electronic Arts,1.76,0.55,0.03,0.22,2.56,86,68,7.9,726,M
 LittleBigPlanet,PSP,2009,Platform,Sony Computer Entertainment,0.64,1.22,0.01,0.67,2.55,87,68,7.8,98,E10+
-Pok\xc3\xa9mon Colosseum,GC,2003,Role-Playing,Nintendo,1.21,0.57,0.7,0.07,2.54,73,37,8,92,E
+Pokemon Colosseum,GC,2003,Role-Playing,Nintendo,1.21,0.57,0.7,0.07,2.54,73,37,8,92,E
 Madden NFL 09,X360,2008,Sports,Electronic Arts,2.21,0.12,0,0.2,2.53,83,50,7,125,E
 Space Invaders,2600,1978,Shooter,Atari,2.36,0.14,0,0.03,2.53,,,,,
 Skylanders Giants,Wii,2012,Action,Activision,1.49,0.83,0,0.21,2.53,78,8,7,20,E10+
@@ -848,11 +848,11 @@ Dance Central 2,X360,2011,Misc,Microsoft Game Studios,1.45,0.41,0.01,0.16,2.04,8
 PGR4 - Project Gotham Racing 4,X360,2007,Racing,Microsoft Game Studios,0.48,1.28,0.02,0.25,2.04,,,,,
 Battlefield 4,XOne,2013,Shooter,Electronic Arts,1.27,0.58,0,0.19,2.03,81,5,6.6,482,M
 Carnival Games,DS,2008,Misc,Take-Two Interactive,1.22,0.63,0,0.19,2.03,48,11,3.3,4,E
-1080\xc2\xb0: TenEighty Snowboarding,N64,1998,Sports,Nintendo,1.25,0.61,0.13,0.05,2.03,,,,,
+1080: TenEighty Snowboarding,N64,1998,Sports,Nintendo,1.25,0.61,0.13,0.05,2.03,,,,,
 Fire Emblem: Awakening,3DS,2012,Role-Playing,Nintendo,0.9,0.45,0.54,0.13,2.03,92,72,9.1,1139,T
 NBA Live 2004,PS2,2003,Sports,Electronic Arts,1.57,0.18,0,0.27,2.03,86,19,7.7,41,E
 Rayman Raving Rabbids: TV Party,Wii,2008,Misc,Ubisoft,0.72,1.08,0,0.23,2.03,73,24,7.7,29,E10+
-Pok\xc3\xa9mon Mystery Dungeon: Blue Rescue Team,DS,2005,Role-Playing,Nintendo,1.15,0.04,0.83,0,2.02,62,34,8.1,99,E
+Pokemon Mystery Dungeon: Blue Rescue Team,DS,2005,Role-Playing,Nintendo,1.15,0.04,0.83,0,2.02,62,34,8.1,99,E
 Just Dance 2015,Wii,2014,Misc,Ubisoft,1,0.85,0,0.17,2.02,,,8.4,5,E10+
 Dark Souls,PS3,2011,Role-Playing,Namco Bandai Games,0.75,0.51,0.54,0.22,2.02,89,54,8.7,1410,M
 Just Dance 3,X360,2011,Misc,Ubisoft,1.47,0.39,0,0.16,2.02,70,34,7.7,17,E10+

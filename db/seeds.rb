@@ -1,9 +1,10 @@
 require 'csv'
 
+Page.destroy_all
+Rating.destroy_all
 Game.destroy_all
 Genre.destroy_all
 Platform.destroy_all
-Rating.destroy_all
 User.destroy_all
 
 games_csv = File.read(Rails.root.join('db', 'result.csv'))
@@ -35,3 +36,15 @@ puts 'Creating ratings'
     rating = Rating.create(user: user, game: game, userscore: rand(1..10))
     puts rating.inspect
 end
+
+puts 'Creating static pages'
+Page.create(title: "Home",
+            content: "This is the homepage.",
+            permalink: "home")
+
+Page.create(title: "About Us",
+            content: "This is the about us page.",
+            permalink: "about-us")
+Page.create(title: "Contact",
+            content: "This is the contact us page.",
+            permalink: "contact-us")

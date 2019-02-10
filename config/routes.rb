@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resources :games, only: [:index, :show]
 
   get 'static/:permalink', to: 'pages#static', as: 'static'
-
-  root 'pages#show', {id: 3}
+  root 'games#index'
+  # root 'pages#show', {id: 3}
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
