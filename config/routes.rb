@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'search/results'
   get 'ratings/index'
   get 'ratings/show'
   get 'games/index'

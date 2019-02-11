@@ -30,21 +30,21 @@ puts 'Creating Users'
 end
 
 puts 'Creating ratings'
-100.times do
+1000.times do
     user = User.all.sample
     game = Game.all.sample
-    rating = Rating.create(user: user, game: game, userscore: rand(1..10))
+    rating = Rating.create(user: user, game: game, userscore: rand(4..10))
     puts rating.inspect
 end
 
 puts 'Creating static pages'
 Page.create(title: "Home",
-            content: "This is the homepage.",
+            content: "Welcome to Games Feed, a site that pulls a data source from Kaggle and displays the top 1000 games that has critical acclaim back in 2017. Feel free to search and see what our users rated the games!",
             permalink: "home")
 
 Page.create(title: "About Us",
-            content: "This is the about us page.",
+            content: "Created by Dwight Mopas.",
             permalink: "about-us")
 Page.create(title: "Contact",
-            content: "This is the contact us page.",
+            content: "You can reach me at dmopas@academic.rrc.ca",
             permalink: "contact-us")
