@@ -21,7 +21,7 @@
     </tr>
     <% @game.ratings.each do |rating| %>
         <tr>
-            <td><%= rating.user.name %></td>
+            <td><%= link_to rating.user.name, rating.user %></td>
             <td><%= rating.userscore %></td>
         </tr>
     <% end %>
