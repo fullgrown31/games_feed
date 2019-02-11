@@ -4,12 +4,14 @@
         <th>Game</th>
         <th>Platform</th>
         <th>Genre</th>
+        <th>User Ratings</th>
     <tr>
     <% @games.each do |game| %>
         <tr>
             <td><%= link_to game.name, game %></td>
             <td><%= link_to game.platform.name, game.platform %></td>
             <td><%= link_to game.genre.name, game.genre %></td>
+            <td><%= game.ratings.count %></td>
         </tr>
     <% end %>
 </table>
