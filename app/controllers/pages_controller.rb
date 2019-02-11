@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  http_basic_authenticate_with name: "dwight", password: "mopas"
+  http_basic_authenticate_with name: "dwight", password: "mopas", except: [:permalink]
   before_action :set_page, only: [:show, :edit, :update, :destroy]
 
   def static
