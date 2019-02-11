@@ -1,14 +1,16 @@
-<h2><%= @game.name %> Games</h2>
+<h2><%= @game.name %></h2>
 <table>
 <tr>
     <th>Platform</th>
     <th>Metascore</th>
     <th>Userscore</th>
+    <th>Year Released</th>
 </tr>
 <tr>
     <td><%= link_to @game.platform.name, @game.platform %></td>
     <td><%= @game.metascore %></td>
     <td><%= @game.ratings.average(:userscore) %></td>
+    <td><%= @game.year %></td>
 </tr>
 </table>
 <h3>Ratings</h3>

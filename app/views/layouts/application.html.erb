@@ -11,19 +11,25 @@
 
   <body>
     <header>
-      <h1>Welcome to Games Feed</h1>
+      <h1>Games Feed</h1>
     </header>
     <nav>
       <ul>
-        <li><%= link_to 'Home', static_path(permalink: 'home') %></li>
+        <li><%= link_to 'Home', static_pages_home_path %></li>
         <li><%= link_to 'Games', games_path %></li>
         <li><%= link_to 'Platforms', platforms_path %></li>
         <li><%= link_to 'Genres', genres_path %></li>
         <li><%= link_to 'Users', users_path %></li>
-        <li><%= link_to 'About Me', static_path(permalink: 'about-us') %></li>
-        <li><%= link_to 'Contact', static_path(permalink: 'contact-us') %></li>
+        <li><%= link_to 'About Me', static_pages_about_path %></li>
+        <li><%= link_to 'Contact', static_pages_contact_path %></li>
       </ul>
     </nav>
+
+    <%= form_tag(search_results_path, method: "get") do %>
+      <%= label_tag(:q, "Search Games:") %>
+      <%= text_field_tag(:q) %>
+      <%= submit_tag("Search") %>
+    <% end %>
     <%= yield %>
 
     <footer>Created By Dwight Mopas 2019</footer>

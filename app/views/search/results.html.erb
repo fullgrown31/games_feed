@@ -1,2 +1,17 @@
-<h1>Search#results</h1>
-<p>Find me in app/views/search/results.html.erb</p>
+<h1>Search Results</h1>
+<h2>Your query for "<%= @query %>" returned <%= pluralize(@games_count.size, 'result')%>.</h2>
+
+<table>
+    <tr>
+        <th>Game</th>
+        <th>Platform</th>
+        <th>Genre</th>
+        <th>Year Released</th>
+        <th>User Ratings</th>
+    <tr>
+    <%= render @games %>
+</table>
+
+</br>
+<%= will_paginate @games %>
+</br>
